@@ -32,7 +32,7 @@ time.sleep(2)
 
 #Turn back to 90 degrees
 print("Turning back to 90 degrees for 2 seconds")
-servo1.ChangeDutyCycle(7)
+servo1.ChangeDutyCycle(6)
 time.sleep(0.3)
 servo1.ChangeDutyCycle(0)
 time.sleep(2)
