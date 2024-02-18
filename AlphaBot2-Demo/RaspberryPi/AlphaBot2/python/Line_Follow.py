@@ -54,12 +54,12 @@ time.sleep(0.5)
 for i in range(0,100):
 	if(i<25 or i>= 75):
 		Ab.right()
-		Ab.setPWMA(30)
-		Ab.setPWMB(30)
+		Ab.setPWMA(50) #changed from 30 to 50
+		Ab.setPWMB(50) #changed from 30 to 50
 	else:
 		Ab.left()
-		Ab.setPWMA(30)
-		Ab.setPWMB(30)
+		Ab.setPWMA(50) # changed from 30 to 50
+		Ab.setPWMB(50) #changed from 30 to 50
 	TR.calibrate()
 Ab.stop()
 print(TR.calibratedMin)
