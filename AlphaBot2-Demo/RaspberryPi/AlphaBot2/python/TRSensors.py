@@ -151,7 +151,7 @@ class TRSensor(object):
 	this case, each sensor value will be replaced by (1000-value)
 	before the averaging.
 	"""
-	def readLine(self, white_line = 0):
+	def readLine(self, white_line = 1):
 
 		sensor_values = self.readCalibrated()
 		avg = 0
